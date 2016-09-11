@@ -1,0 +1,29 @@
+$primarycolor: #FF0000;
+$secondarycolor: #0011FF;
+$alertcolor: #009911;
+$default-font-size: 15px;
+
+a {
+  color: $primarycolor;
+}
+
+p {
+  color: $secondarycolor;
+}
+
+.msg-alert {
+  color: $alertcolor;
+}
+
+.popup-alert {
+  background-color: $alertcolor;
+}
+
+.navbar {
+  a {
+    color: $primarycolor;
+  }
+  p {
+    font-size: $default-font-size;
+  }
+}
