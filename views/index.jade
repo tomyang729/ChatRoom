@@ -1,5 +1,8 @@
 extends layout
 
+block style
+  link(rel='stylesheet', href='/stylesheets/main.css')
+
 block content
   if (!user)
     a.btn.btn-primary(href="/login") Login
